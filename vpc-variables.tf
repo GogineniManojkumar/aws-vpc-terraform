@@ -14,3 +14,7 @@ variable "availability_zone2" {
     description = "Avaialbility Zones"
     default = "ap-southeast-1b"
 }
+variable "main_vpc_cidr" {
+    description = "CIDR of the VPC"
+    default = "10.0.0.0/16"
+}
